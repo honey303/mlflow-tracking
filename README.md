@@ -54,6 +54,10 @@ minikube service mlflow-svc -n mlflow
 ```
 
 
+*Note: In the above example I haven't specified the networking components like netowrk cidr or the vpc and subnets to use with the cluster. We can alternatively pass them as parameters to kops cli command while creating the cluster.
+For Eg.*
+
+
 
 
 
