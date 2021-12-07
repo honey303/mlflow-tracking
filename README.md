@@ -54,8 +54,7 @@ minikube service mlflow-svc -n mlflow
 ```
 
 
-*Note: In the above example I haven't specified the networking components like netowrk cidr or the vpc and subnets to use with the cluster. We can alternatively pass them as parameters to kops cli command while creating the cluster.
-For Eg.*
+*Note: Running the app locally worked perfectly fine. Although, hosting the app on minikube cluster didn't work as expected. In the sense I could curl <http:$(minikube-ip):5000> and got the same rsponse as I did while running the app locally on the instance.*
 
 
 
