@@ -19,7 +19,7 @@ docker run -d -p 5000:5000 <image-id>
 
 ```
 
-### Alternatively you can also run
+### Alternatively you can also excute the below command
 
 ```
 
