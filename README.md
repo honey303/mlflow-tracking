@@ -19,6 +19,14 @@ docker run -d -p 5000:5000 <image-id>
 
 ```
 
+### Alternatively you can also run
+
+```
+
+docker run -d -p 5000:5000 honey3003/mlflow-tracking:v1
+
+```
+
 ## Access the application 
 
 * The app is running on http://localhost:5000
@@ -33,6 +41,10 @@ docker run -d -p 5000:5000 <image-id>
 ## Steps to run the app on k8s
 
 ```
+git clone <git-repo>
+cd mlflow-tracking
+
+
 kubectl k8s-files/app-namespace.yml
 kubectl k8s-files/app-deployment.yml
 kubectl k8s-files/app-svc.yml
