@@ -5,7 +5,7 @@ This repo consists of the files required to run Mlflow Tracking server locally a
 ## Usages
 
 * SQlite is used to store Metadata
-* AWS S3 is used as the Model Artifact Store
+* Amazon S3 is used as the Model Artifact Store
 
 
 ## Steps to run the app locally
