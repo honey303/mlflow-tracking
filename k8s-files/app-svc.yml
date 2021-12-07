@@ -4,6 +4,7 @@ metadata:
   labels:
     app: mlflow-svc
   name: mlflow-svc
+  namespace: mlflow-tracking
 spec:
   type: NodePort
   ports:

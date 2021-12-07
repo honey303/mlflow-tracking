@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: mlflow
+      namespace: mlflow-tracking
     spec:
       containers:
       - name: mlflow
